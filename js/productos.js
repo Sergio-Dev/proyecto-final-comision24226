@@ -14,7 +14,7 @@ fetch(urlApi)
         productos.forEach((producto) => {
             const html = `
                 <article class="product" data-id="${producto.id}">
-                    <a href="/pages/product_details.html?productId=${producto.id}">
+                    <a href="./product_details.html?productId=${producto.id}">
                     <img class="product-image" src="../img/${producto.url}" alt="${producto.descripcion}">
 
                     <div class="product-reviews">
