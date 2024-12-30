@@ -423,17 +423,20 @@ body{
 .item-cantidad,
 .item-precio,
 .item-subtotal{
-    width: 25%;
+    width: 50%;
     text-align: center;
 }
 
 .cart-item{
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
     justify-content: space-evenly;
     align-items: center;
     margin: 10px 50px;
     border: solid 1px grey;
-    padding: 25px 10px;
+    padding: 10px 5px;
     border-radius: 10px;
 }
 
@@ -685,6 +688,25 @@ article.product.product-details .product-details-text{
     .menu-tablet ul li:hover{
         border-bottom: 1px solid #1A1A7E;
     }
+
+    .item-nombre,
+    .item-cantidad,
+    .item-precio,
+    .item-subtotal{
+        width: 25%;
+        text-align: center;
+    }
+
+    .cart-item{
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 10px 50px;
+        border: solid 1px grey;
+        padding: 25px 10px;
+        border-radius: 10px;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {

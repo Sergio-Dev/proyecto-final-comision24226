@@ -1,5 +1,5 @@
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
-const btnFinalizarCompra = document.querySelector(".check-btn");
+const btnFinalizarCompra = document.querySelector(".check-btn button");
 
 btnFinalizarCompra.addEventListener("click", ()=>{
     if(carrito.length > 0){
