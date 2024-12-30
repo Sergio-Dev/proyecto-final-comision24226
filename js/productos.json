@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "nombre": "Samsung Galaxy S23 12GB",
+        "descripcion": "Descripcion producto 1",
+        "imagen": "imagen-1.jpg",
+        "precio": 100000,
+        "stock": 10,
+        "url": "cel-1.jpg",
+        "marca": "Samsung"
+    },
+    {
+        "id": 2,
+        "nombre": "Xiaomi Mi 12 Pro 8GB",
+        "descripcion": "Descripcion producto 2",
+        "imagen": "imagen-2.jpg",
+        "precio": 200000,
+        "stock": 13,
+        "url": "cel-2.jpg",
+        "marca": "Xiaomi"
+    },
+    {
+        "id": 3,
+        "nombre": "OnePlus 10 Pro 8GB",
+        "descripcion": "Descripcion producto 3",
+        "imagen": "imagen-3.jpg",
+        "precio": 300000,
+        "stock": 17,
+        "url": "cel-3.jpg",
+        "marca": "OnePlus"
+    },
+    {
+        "id": 4,
+        "nombre": "Huawei P50 5G 8GB",
+        "descripcion": "Descripcion producto 4",
+        "imagen": "imagen-4.jpg",
+        "precio": 400000,
+        "stock": 8,
+        "url": "cel-2.jpg",
+        "marca": "Huawei"
+    },
+    {
+        "id": 5,
+        "nombre": "Realme GT 5G 12GB",
+        "descripcion": "Descripcion producto 5",
+        "imagen": "imagen-5.jpg",
+        "precio": 500000,
+        "stock": 11,
+        "url": "cel-1.jpg",
+        "marca": "Realme"
+    }
+]

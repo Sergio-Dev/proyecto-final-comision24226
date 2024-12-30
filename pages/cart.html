@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="/">
+            <img class="logo" src="../img/logo.png" alt="Logo Todocel">
+        </a>
+
+        <div class="menu-tablet">
+            <ul class="menu-items">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="./products.html">Productos</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+                <li class="cart-icon">
+                    <a href="./cart.html">
+                        <i class="fa-solid fa-cart-shopping"></i> <span class="contador">0</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <label class="menu-icon" for="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </header>
+
+    <input type="checkbox" id="menu-toggle">
+    <nav class="menu">
+        <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="./products.html">Productos</a></li>
+            <li><a href="./contact.html">Contacto</a></li>
+            <li class="cart-icon">
+                <a href="./cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <main>
+
+        <section class="products">
+            <div class="products-container">
+                <h2 class="products-title">Carrito de compras:</h2>
+
+            </div>
+            <br>
+            <div class="cart">
+                
+            </div>
+        </section>
+
+        <section class="checkout">
+            <div class="check-total">
+                <p>Total a pagar: $ <span class="text-check"></span> </p>
+            </div>
+
+            <div class="check-btn">
+                <button>Finalizar compra</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="row">
+            <div class="footer-logo">
+                <img src="../img/logo.png" alt="Logo footer">
+            </div>
+
+            <div class="site-map">
+                <h2>Mapa del sitio</h2>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./products.html">Productos</a></li>
+                    <li><a href="./contact.html">Contacto</a></li>
+                    <li><a href="./cart.html">Carrito</a></li>
+                </ul>
+            </div>
+
+            <div class="social">
+                <h2>Redes sociales</h2>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i> <span>Facebook</span></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i><span>Twitter</span></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-instagram"></i><span>Instagram</span></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i><span>Youtube</span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copy">
+            <p>&copy; 2024 Todocel. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../js/cart.js"></script>
+</body>
+
+</html>
